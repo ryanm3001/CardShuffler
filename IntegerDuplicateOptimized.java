@@ -1,11 +1,11 @@
 import java.util.HashMap;
 
-/* This class does has the same end result as IntegerDuplicate class. This is
+/* This class has the same end result as IntegerDuplicate class. This is
 * optimized utilizing a HashMap to traverse the data much faster.
 */
 public class IntegerDuplicateOptimized {
 	
-    public Integer findIntDuplicateOptimized(Integer[] intArray)
+    public Integer findIntDuplicate(Integer[] intArray)
     {
     	
     	HashMap<Integer, Integer> hashmap = new HashMap<Integer, Integer>();
